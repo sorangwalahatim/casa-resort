@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Casa Paradise - Luxury Tropical Resort">
+    <title>Casa Paradise | Luxury Tropical Resort</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Style & Script -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <a href="#" class="logo">Casa Paradise</a>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#accommodations">Accommodations</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#contact" class="btn-primary">Book Now</a>
+        </nav>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">Escape to Paradise</h1>
+            <p class="hero-subtitle">Experience unparalleled luxury at Casa Paradise, where the tropical breeze meets pristine sands.</p>
+            <div class="hero-actions">
+                <a href="#accommodations" class="btn-primary lg">Discover More</a>
+                <a href="#contact" class="btn-secondary lg">Reserve Your Stay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding reveal" id="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <span class="section-tag">Welcome to Casa Paradise</span>
+                <h2 class="section-title">A Sanctuary for the Soul</h2>
+                <p>Nestled in the heart of the tropics, Casa Paradise offers a transformative experience for those seeking both relaxation and adventure. Our world-class facilities, personalized service, and stunning natural surroundings create the perfect backdrop for your unforgettable getaway.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">5★</span>
+                        <span class="stat-label">Luxury Resort</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Premium Villas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Fine Dining</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-wrapper">
+                <div class="image-stack">
+                    <img src="images/room_villa.png" alt="Tropical Villa with Pool" class="img-front">
+                    <div class="decor-box"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodations Section -->
+    <section class="accommodations section-padding bg-light reveal" id="accommodations">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Luxurious Stays</span>
+                <h2 class="section-title">Exclusive Accommodations</h2>
+                <p class="section-desc">Designed with elegant tropical decor and breathtaking views.</p>
+            </div>
+            
+            <div class="cards-grid">
+                <!-- Room 1 -->
+                <div class="room-card">
+                    <div class="room-img-container">
+                        <img src="images/room_ocean.png" alt="Ocean View Suite" class="room-img">
+                        <div class="room-price">From $450/night</div>
+                    </div>
+                    <div class="room-content">
+                        <h3 class="room-title">Ocean View Suite</h3>
+                        <p class="room-desc">Wake up to the sound of waves in our premium ocean suites featuring private balconies.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> King Bed</li>
+                            <li><i class="fas fa-water"></i> Ocean View</li>
+                            <li><i class="fas fa-wifi"></i> Free WiFi</li>
+                        </ul>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Room 2 -->
+                <div class="room-card highlight">
+                    <div class="room-img-container">
+                        <img src="images/room_villa.png" alt="Tropical Villa" class="room-img">
+                        <div class="room-price">From $850/night</div>
+                    </div>
+                    <div class="room-content">
+                        <h3 class="room-title">Private Tropical Villa</h3>
+                        <p class="room-desc">Secluded luxury villas nestled amid lush gardens with your own private plunge pool.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-bed"></i> 2 King Beds</li>
+                            <li><i class="fas fa-swimmer"></i> Private Pool</li>
+                            <li><i class="fas fa-concierge-bell"></i> Butler Service</li>
+                        </ul>
+                        <a href="#" class="btn-primary w-full text-center">Book Villa</a>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="room-card">
+                    <div class="room-img-container">
+                        <img src="images/room_presidential.png" alt="Presidential Suite" class="room-img">
+                        <div class="room-price">From $1200/night</div>
+                    </div>
+                    <div class="room-content">
+                        <h3 class="room-title">Presidential Suite</h3>
+                        <p class="room-desc">The ultimate expression of luxury living with panoramic ocean views and grand interiors.</p>
+                        <ul class="room-features">
+                            <li><i class="fas fa-gem"></i> Premium Luxury</li>
+                            <li><i class="fas fa-hot-tub"></i> Jacuzzi</li>
+                            <li><i class="fas fa-glass-cheers"></i> Private Bar</li>
+                        </ul>
+                        <a href="#" class="btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities section-padding reveal" id="amenities">
+        <div class="container container-narrow">
+            <div class="section-header text-center">
+                <span class="section-tag">Resort Experience</span>
+                <h2 class="section-title">World-Class Amenities</h2>
+            </div>
+            
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-spa"></i></div>
+                    <h4>Oasis Spa</h4>
+                    <p>Rejuvenate your body and mind with our holistic signature treatments.</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-utensils"></i></div>
+                    <h4>Fine Dining</h4>
+                    <p>Savor exquisite culinary creations by award-winning global chefs.</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-swimming-pool"></i></div>
+                    <h4>Infinity Pools</h4>
+                    <p>Relax in our temperature-controlled cascaded infinity pools.</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon"><i class="fas fa-ship"></i></div>
+                    <h4>Yacht Tours</h4>
+                    <p>Explore the stunning coastline with our private yacht charters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2 class="footer-logo">Casa Paradise</h2>
+                <p>Your sanctuary of luxury and tranquility. We await your arrival.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#accommodations">Accommodations</a></li>
+                    <li><a href="#amenities">Experiences</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Paradise Blvd, Tropics</li>
+                    <li><i class="fas fa-phone"></i> +1 (800) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> reservations@casaparadise.com</li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe for exclusive offers and updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit" class="btn-primary"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Casa Paradise Resort. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
